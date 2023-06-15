@@ -1,0 +1,6 @@
+name : MysticMobParty
+main : com.unongmilk.mmp.Main
+version : 1.0
+
+commands :
+  파티:

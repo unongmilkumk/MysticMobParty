@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+    implementation(fileTree(mapOf("dir" to "lib", "include" to listOf("*.jar"))))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21")
     compileOnly("org.spigotmc:spigot:1.12.2-R0.1-SNAPSHOT")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
